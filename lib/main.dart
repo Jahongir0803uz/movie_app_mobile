@@ -45,15 +45,9 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Colors.white,
       body: SafeArea(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Center(child: Image(image: AssetImage('assets/images/screen_page_image.png'),)),
-            Text("Yume",style: TextStyle(
-              fontSize: 40,
-              fontWeight: FontWeight.bold,
-              fontStyle: FontStyle.italic,
-              color: Colors.red,
-            ),),
+            Spacer(),
+            Image(image: AssetImage('assets/images/screen_page_image.png'),),
             Spacer(),
             Align(
               alignment: Alignment.bottomCenter,
