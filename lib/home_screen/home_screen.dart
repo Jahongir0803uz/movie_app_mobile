@@ -6,6 +6,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        leading: Image.asset('assets/images/screen_page_image.png'),
+        backgroundColor: Colors.transparent,
+      ),
+      extendBodyBehindAppBar: true,
       body: SafeArea(
         top: false,
         child: Column(
