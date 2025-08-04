@@ -8,6 +8,9 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         leading: Image.asset('assets/images/screen_page_image.png'),
+        actions: [
+
+        ],
         backgroundColor: Colors.transparent,
       ),
       extendBodyBehindAppBar: true,
