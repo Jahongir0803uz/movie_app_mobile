@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,7 +10,22 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         leading: Image.asset('assets/images/screen_page_image.png'),
         actions: [
-
+          IconButton(
+            onPressed: () {},
+            icon: SvgPicture.asset(
+              'assets/icons/search.svg',
+              height: 20,
+              width: 20,
+            ),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: SvgPicture.asset(
+              'assets/icons/notification.svg',
+              height: 30,
+              width: 30,
+            ),
+          ),
         ],
         backgroundColor: Colors.transparent,
       ),
@@ -30,10 +46,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            Expanded(
-              flex: 2,
-              child: Container(),
-            )
+            Expanded(flex: 2, child: Container()),
           ],
         ),
       ),
