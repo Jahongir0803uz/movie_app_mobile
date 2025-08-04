@@ -22,8 +22,8 @@ class HomeScreen extends StatelessWidget {
             onPressed: () {},
             icon: SvgPicture.asset(
               'assets/icons/notification.svg',
-              height: 30,
-              width: 30,
+              height: 40,
+              width: 40,
             ),
           ),
         ],
