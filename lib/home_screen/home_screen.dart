@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -9,7 +10,8 @@ class HomeScreen extends StatelessWidget {
       appBar: AppBar(
         leading: Image.asset('assets/images/screen_page_image.png'),
         actions: [
-
+          IconButton(onPressed: () {}, icon: Icon(CupertinoIcons.search, color: Colors.white, size: 32,)),
+          IconButton(onPressed: () {}, icon: Icon(Icons.notifications_outlined, color: Colors.white, size: 32,)),
         ],
         backgroundColor: Colors.transparent,
       ),
